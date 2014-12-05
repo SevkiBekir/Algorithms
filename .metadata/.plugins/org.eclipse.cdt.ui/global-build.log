@@ -314,3 +314,90 @@ Invoking: MacOS X C++ Linker
 g++  -o "Insertion Sort"  ./src/Insertion\ Sort.o   
 Finished building target: Insertion Sort
  
+20:46:42 **** Build of configuration Debug for project Shell Sort ****
+make all 
+Building file: ../src/Shell Sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Shell Sort.d" -MT"src/Shell\ Sort.d" -o "src/Shell Sort.o" "../src/Shell Sort.cpp"
+../src/Shell Sort.cpp:13:13: warning: unused variable 'j' [-Wunused-variable]
+        int size,i,j,temp;
+                   ^
+../src/Shell Sort.cpp:13:15: warning: unused variable 'temp' [-Wunused-variable]
+        int size,i,j,temp;
+                     ^
+2 warnings generated.
+Finished building: ../src/Shell Sort.cpp
+ 
+Building target: Shell Sort
+Invoking: MacOS X C++ Linker
+g++  -o "Shell Sort"  ./src/Shell\ Sort.o   
+Finished building target: Shell Sort
+ 
+20:46:49 **** Incremental Build of configuration Debug for project Shell Sort ****
+make all 
+make: Nothing to be done for `all'.
+20:48:04 **** Incremental Build of configuration Debug for project Shell Sort ****
+make all 
+make: Nothing to be done for `all'.
+21:10:05 **** Incremental Build of configuration Debug for project Shell Sort ****
+make all 
+Building file: ../src/Shell Sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Shell Sort.d" -MT"src/Shell\ Sort.d" -o "src/Shell Sort.o" "../src/Shell Sort.cpp"
+../src/Shell Sort.cpp:14:13: warning: sizeof on array function parameter will return size of 'int *' instead of 'int []' [-Wsizeof-array-argument]
+        size=sizeof(array);
+                   ^
+../src/Shell Sort.cpp:11:24: note: declared here
+void insertionSort(int array[],int select,int k)
+                       ^
+1 warning generated.
+Finished building: ../src/Shell Sort.cpp
+ 
+Building target: Shell Sort
+Invoking: MacOS X C++ Linker
+g++  -o "Shell Sort"  ./src/Shell\ Sort.o   
+Finished building target: Shell Sort
+ 
+21:11:49 **** Incremental Build of configuration Debug for project Shell Sort ****
+make all 
+Building file: ../src/Shell Sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Shell Sort.d" -MT"src/Shell\ Sort.d" -o "src/Shell Sort.o" "../src/Shell Sort.cpp"
+Finished building: ../src/Shell Sort.cpp
+ 
+Building target: Shell Sort
+Invoking: MacOS X C++ Linker
+g++  -o "Shell Sort"  ./src/Shell\ Sort.o   
+Finished building target: Shell Sort
+ 
+21:12:34 **** Incremental Build of configuration Debug for project Shell Sort ****
+make all 
+make: Nothing to be done for `all'.
+21:13:16 **** Incremental Build of configuration Debug for project Shell Sort ****
+make all 
+make: Nothing to be done for `all'.
+21:13:21 **** Incremental Build of configuration Debug for project Shell Sort ****
+make all 
+make: Nothing to be done for `all'.
+21:13:54 **** Incremental Build of configuration Debug for project Shell Sort ****
+make all 
+make: Nothing to be done for `all'.
+21:14:44 **** Incremental Build of configuration Debug for project Shell Sort ****
+make all 
+Building file: ../src/Shell Sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Shell Sort.d" -MT"src/Shell\ Sort.d" -o "src/Shell Sort.o" "../src/Shell Sort.cpp"
+../src/Shell Sort.cpp:14:13: warning: sizeof on array function parameter will return size of 'int *' instead of 'int []' [-Wsizeof-array-argument]
+        size=sizeof(array);
+                   ^
+../src/Shell Sort.cpp:11:24: note: declared here
+void insertionSort(int array[],int select,int k)
+                       ^
+1 warning generated.
+Finished building: ../src/Shell Sort.cpp
+ 
+Building target: Shell Sort
+Invoking: MacOS X C++ Linker
+g++  -o "Shell Sort"  ./src/Shell\ Sort.o   
+Finished building target: Shell Sort
+ 

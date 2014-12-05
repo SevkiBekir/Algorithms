@@ -1,0 +1,31 @@
+//============================================================================
+// Name        : Shell.cpp
+// Author      : Sevki Bekir KOCADAG
+// Version     : 1.0
+// Description : Example of Shell Sort Algorithm in C++
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "How many numbers do you sort?"<< endl;
+	int size,i,j,temp;
+	cin >> size;
+	int arNumber[size];
+	cout << "Now, you can write the numbers you want."<< endl;
+	for (i=0;i<size;i++)
+	{
+		cin >> arNumber[i];
+	}
+	cout << "The numbers are ";
+	for (i=0;i<size;i++)
+	{
+		cout << arNumber[i] << " ";
+	}
+	cout << endl;
+
+
+
+	return 0;
+}
