@@ -1,0 +1,27 @@
+//============================================================================
+// Name        : Bubble.cpp
+// Author      : Sevki Bekir Kocadag
+// Version     :
+// Copyright   : All rights reserved.
+// Description : Hello World in C++, Ansi-style
+//============================================================================
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	cout << "How many number do you sort?"<< endl;
+	int size,i;
+	cin >> size;
+	int arNumber[size];
+	for (i=0;i<size;i++)
+	{
+		cin >> arNumber[i];
+	}
+	cout << "The numbers are ";
+	for (i=0;i<size;i++)
+	{
+		cout << arNumber[i] << " ";
+	}
+	return 0;
+}

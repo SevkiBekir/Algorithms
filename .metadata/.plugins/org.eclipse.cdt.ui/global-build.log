@@ -1,0 +1,216 @@
+14:47:03 **** Build of configuration Debug for project Bubble Sort ****
+make all 
+Building file: ../src/Bubble Sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bubble Sort.d" -MT"src/Bubble\ Sort.d" -o "src/Bubble Sort.o" "../src/Bubble Sort.cpp"
+Finished building: ../src/Bubble Sort.cpp
+ 
+Building target: Bubble Sort
+Invoking: GCC C++ Linker
+g++  -o "Bubble Sort"  ./src/Bubble\ Sort.o   
+Finished building target: Bubble Sort
+ 
+14:47:18 **** Incremental Build of configuration Debug for project Bubble Sort ****
+make all 
+make: Nothing to be done for `all'.
+14:50:31 **** Incremental Build of configuration Debug for project Bubble Sort ****
+make all 
+Building target: Bubble Sort
+Invoking: GCC C++ Linker
+g++  -o "Bubble Sort"  ./src/Bubble\ Sort.o   
+Finished building target: Bubble Sort
+ 
+14:50:35 **** Incremental Build of configuration Debug for project Bubble Sort ****
+make all 
+make: Nothing to be done for `all'.
+14:53:49 **** Incremental Build of configuration Debug for project Bubble Sort ****
+make all 
+make: Nothing to be done for `all'.
+14:54:37 **** Incremental Build of configuration Debug for project Bubble Sort ****
+make all 
+Building file: ../src/Bubble Sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bubble Sort.d" -MT"src/Bubble\ Sort.d" -o "src/Bubble Sort.o" "../src/Bubble Sort.cpp"
+Finished building: ../src/Bubble Sort.cpp
+ 
+Building target: Bubble Sort
+Invoking: GCC C++ Linker
+g++  -o "Bubble Sort"  ./src/Bubble\ Sort.o   
+Finished building target: Bubble Sort
+ 
+14:55:24 **** Incremental Build of configuration Debug for project Bubble Sort ****
+make all 
+Building file: ../src/Bubble Sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bubble Sort.d" -MT"src/Bubble\ Sort.d" -o "src/Bubble Sort.o" "../src/Bubble Sort.cpp"
+Finished building: ../src/Bubble Sort.cpp
+ 
+Building target: Bubble Sort
+Invoking: GCC C++ Linker
+g++  -o "Bubble Sort"  ./src/Bubble\ Sort.o   
+Finished building target: Bubble Sort
+ 
+15:00:02 **** Incremental Build of configuration Debug for project Bubble Sort ****
+make all 
+Building file: ../src/Bubble Sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bubble Sort.d" -MT"src/Bubble\ Sort.d" -o "src/Bubble Sort.o" "../src/Bubble Sort.cpp"
+../src/Bubble Sort.cpp:13:7: error: invalid operands to binary expression ('ostream' (aka 'basic_ostream<char>') and 'const char *')
+        cout >> "How many number do you sort?";
+        ~~~~ ^  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/istream:740:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/istream:789:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, unsigned char* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/istream:797:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, signed char* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/istream:804:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/istream:832:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, unsigned char& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/istream:840:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, signed char& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/istream:1531:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/istream:1663:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, bitset<_Size>& __x)
+^
+../src/Bubble Sort.cpp:19:7: warning: expression result unused [-Wunused-value]
+                cin << arNumber[i];
+                ~~~ ^  ~~~~~~~~~~~
+../src/Bubble Sort.cpp:23:23: error: invalid operands to binary expression ('int' and 'const char *')
+                cout >> arNumber[i] >> " ";
+                ~~~~~~~~~~~~~~~~~~~ ^  ~~~
+../src/Bubble Sort.cpp:15:6: warning: expression result unused [-Wunused-value]
+        cin << size;
+        ~~~ ^  ~~~~
+2 warnings and 2 errors generated.
+make: *** [src/Bubble Sort.o] Error 1
+15:02:02 **** Incremental Build of configuration Debug for project Bubble Sort ****
+make all 
+Building file: ../src/Bubble Sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bubble Sort.d" -MT"src/Bubble\ Sort.d" -o "src/Bubble Sort.o" "../src/Bubble Sort.cpp"
+../src/Bubble Sort.cpp:23:23: error: invalid operands to binary expression ('std::__1::basic_ostream<char>' and 'const char *')
+                cout << arNumber[i] >> " ";
+                ~~~~~~~~~~~~~~~~~~~ ^  ~~~
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/istream:740:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/istream:789:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, unsigned char* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/istream:797:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, signed char* __s)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/istream:804:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, _CharT& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/istream:832:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, unsigned char& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/istream:840:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<char, _Traits>& __is, signed char& __c)
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/istream:1531:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is,
+^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1/istream:1663:1: note: candidate template ignored: could not match 'basic_istream' against 'basic_ostream'
+operator>>(basic_istream<_CharT, _Traits>& __is, bitset<_Size>& __x)
+^
+1 error generated.
+make: *** [src/Bubble Sort.o] Error 1
+15:02:16 **** Incremental Build of configuration Debug for project Bubble Sort ****
+make all 
+Building file: ../src/Bubble Sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bubble Sort.d" -MT"src/Bubble\ Sort.d" -o "src/Bubble Sort.o" "../src/Bubble Sort.cpp"
+Finished building: ../src/Bubble Sort.cpp
+ 
+Building target: Bubble Sort
+Invoking: GCC C++ Linker
+g++  -o "Bubble Sort"  ./src/Bubble\ Sort.o   
+Finished building target: Bubble Sort
+ 
+15:02:32 **** Incremental Build of configuration Debug for project Bubble Sort ****
+make all 
+Building file: ../src/Bubble Sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bubble Sort.d" -MT"src/Bubble\ Sort.d" -o "src/Bubble Sort.o" "../src/Bubble Sort.cpp"
+Finished building: ../src/Bubble Sort.cpp
+ 
+Building target: Bubble Sort
+Invoking: GCC C++ Linker
+g++  -o "Bubble Sort"  ./src/Bubble\ Sort.o   
+Finished building target: Bubble Sort
+ 
+15:04:16 **** Incremental Build of configuration Debug for project Bubble Sort ****
+make all 
+Building file: ../src/Bubble Sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bubble Sort.d" -MT"src/Bubble\ Sort.d" -o "src/Bubble Sort.o" "../src/Bubble Sort.cpp"
+Finished building: ../src/Bubble Sort.cpp
+ 
+Building target: Bubble Sort
+Invoking: GCC C++ Linker
+g++  -o "Bubble Sort"  ./src/Bubble\ Sort.o   
+Finished building target: Bubble Sort
+ 
+15:09:49 **** Incremental Build of configuration Debug for project Bubble Sort ****
+make all 
+Building file: ../src/Bubble Sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bubble Sort.d" -MT"src/Bubble\ Sort.d" -o "src/Bubble Sort.o" "../src/Bubble Sort.cpp"
+Finished building: ../src/Bubble Sort.cpp
+ 
+Building target: Bubble Sort
+Invoking: GCC C++ Linker
+g++  -o "Bubble Sort"  ./src/Bubble\ Sort.o   
+Finished building target: Bubble Sort
+ 
+15:10:36 **** Incremental Build of configuration Debug for project Bubble Sort ****
+make all 
+Building file: ../src/Bubble Sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bubble Sort.d" -MT"src/Bubble\ Sort.d" -o "src/Bubble Sort.o" "../src/Bubble Sort.cpp"
+Finished building: ../src/Bubble Sort.cpp
+ 
+Building target: Bubble Sort
+Invoking: GCC C++ Linker
+g++  -o "Bubble Sort"  ./src/Bubble\ Sort.o   
+Finished building target: Bubble Sort
+ 
+15:11:20 **** Incremental Build of configuration Debug for project Bubble Sort ****
+make all 
+Building file: ../src/Bubble Sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bubble Sort.d" -MT"src/Bubble\ Sort.d" -o "src/Bubble Sort.o" "../src/Bubble Sort.cpp"
+Finished building: ../src/Bubble Sort.cpp
+ 
+Building target: Bubble Sort
+Invoking: GCC C++ Linker
+g++  -o "Bubble Sort"  ./src/Bubble\ Sort.o   
+Finished building target: Bubble Sort
+ 
+15:11:57 **** Incremental Build of configuration Debug for project Bubble Sort ****
+make all 
+Building file: ../src/Bubble Sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Bubble Sort.d" -MT"src/Bubble\ Sort.d" -o "src/Bubble Sort.o" "../src/Bubble Sort.cpp"
+Finished building: ../src/Bubble Sort.cpp
+ 
+Building target: Bubble Sort
+Invoking: GCC C++ Linker
+g++  -o "Bubble Sort"  ./src/Bubble\ Sort.o   
+Finished building target: Bubble Sort
+ 
+15:12:33 **** Incremental Build of configuration Debug for project Bubble Sort ****
+make all 
+make: Nothing to be done for `all'.
