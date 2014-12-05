@@ -10,7 +10,7 @@
 using namespace std;
 
 int main() {
-	cout << "How many number do you sort?"<< endl;
+	cout << "How many numbers do you sort?"<< endl;
 	int size,i,temp;
 	cin >> size;
 	int arNumber[size];
