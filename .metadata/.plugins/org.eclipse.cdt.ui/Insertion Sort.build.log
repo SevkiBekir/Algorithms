@@ -1,0 +1,15 @@
+15:42:15 **** Incremental Build of configuration Debug for project Insertion Sort ****
+make all 
+Building file: ../src/Insertion Sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Insertion Sort.d" -MT"src/Insertion\ Sort.d" -o "src/Insertion Sort.o" "../src/Insertion Sort.cpp"
+Finished building: ../src/Insertion Sort.cpp
+ 
+Building target: Insertion Sort
+Invoking: MacOS X C++ Linker
+g++  -o "Insertion Sort"  ./src/Insertion\ Sort.o   
+Finished building target: Insertion Sort
+ 
+
+15:42:15 Build Finished (took 389ms)
+
