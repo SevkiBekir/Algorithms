@@ -14,6 +14,7 @@ int main()
 	int size,i,j,temp;
 	cin >> size;
 	int arNumber[size];
+	cout << "Now, you can write the numbers you want."<< endl;
 	for (i=0;i<size;i++)
 	{
 		cin >> arNumber[i];

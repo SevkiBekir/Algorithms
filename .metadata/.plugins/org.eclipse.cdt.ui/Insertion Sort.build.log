@@ -1,4 +1,4 @@
-15:42:15 **** Incremental Build of configuration Debug for project Insertion Sort ****
+20:07:29 **** Incremental Build of configuration Debug for project Insertion Sort ****
 make all 
 Building file: ../src/Insertion Sort.cpp
 Invoking: GCC C++ Compiler
@@ -11,5 +11,5 @@ g++  -o "Insertion Sort"  ./src/Insertion\ Sort.o
 Finished building target: Insertion Sort
  
 
-15:42:15 Build Finished (took 389ms)
+20:07:30 Build Finished (took 1s.75ms)
 
