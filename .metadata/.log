@@ -1917,3 +1917,51 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.cdt.core 1 0 2014-12-05 15:23:33.020
 !MESSAGE Indexed 'Insertion Sort' (1 sources, 171 headers) in 4,73 sec: 21.121 declarations; 44.254 references; 0 unresolved inclusions; 25 syntax errors; 9 unresolved names (%0,014)
+
+!ENTRY org.eclipse.cdt.core 1 0 2014-12-05 15:47:27.346
+!MESSAGE Indexed 'Quick Sort' (1 sources, 171 headers) in 3,22 sec: 21.121 declarations; 44.254 references; 0 unresolved inclusions; 25 syntax errors; 9 unresolved names (%0,014)
+
+!ENTRY org.eclipse.cdt.core 4 0 2014-12-05 15:49:07.165
+!MESSAGE Error: Cannot run program "valgrind": Unknown reason
+!STACK 0
+java.io.IOException: Cannot run program "valgrind": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:349)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:91)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:91)
+	at org.eclipse.cdt.core.CommandLauncher.execute(CommandLauncher.java:194)
+	at org.eclipse.linuxtools.internal.profiling.launch.LocalLauncher.execute(LocalLauncher.java:38)
+	at org.eclipse.linuxtools.tools.launch.core.factory.RuntimeProcessFactory.exec(RuntimeProcessFactory.java:279)
+	at org.eclipse.linuxtools.tools.launch.core.factory.RuntimeProcessFactory.exec(RuntimeProcessFactory.java:225)
+	at org.eclipse.linuxtools.tools.launch.core.factory.RuntimeProcessFactory.exec(RuntimeProcessFactory.java:175)
+	at org.eclipse.linuxtools.tools.launch.core.factory.RuntimeProcessFactory.exec(RuntimeProcessFactory.java:161)
+	at org.eclipse.linuxtools.internal.valgrind.core.ValgrindCommand.whichVersion(ValgrindCommand.java:37)
+	at org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchPlugin.getValgrindVersion(ValgrindLaunchPlugin.java:113)
+	at org.eclipse.linuxtools.internal.valgrind.launch.ValgrindLaunchConfigurationDelegate.launch(ValgrindLaunchConfigurationDelegate.java:114)
+	at org.eclipse.linuxtools.internal.profiling.launch.provider.launch.ProviderLaunchConfigurationDelegate.launch(ProviderLaunchConfigurationDelegate.java:88)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.linuxtools.valgrind.launch 4 0 2014-12-05 15:49:07.170
+!MESSAGE Couldn't determine version of Valgrind
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2014-12-05 15:49:46.942
+!MESSAGE Error with command: gdb --version
+!STACK 0
+java.io.IOException: Cannot run program "gdb": Unknown reason
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:349)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:143)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:128)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:77)
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.getGDBVersion(LaunchUtils.java:304)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.getGDBVersion(GdbLaunchDelegate.java:303)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:153)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:108)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:96)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:885)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)

@@ -1,9 +1,8 @@
 //============================================================================
 // Name        : Insertion.cpp
-// Author      : Sevki Bekir Kocadag
-// Version     :
-// Copyright   : All rights reserved.
-// Description : Hello World in C++, Ansi-style
+// Author      : Sevki Bekir KOCADAG
+// Version     : 1.0
+// Description : Example of Quick Sort Algorithm in C++
 //============================================================================
 
 #include <iostream>

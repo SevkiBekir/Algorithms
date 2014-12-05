@@ -1,0 +1,15 @@
+19:53:09 **** Incremental Build of configuration Debug for project Quick Sort ****
+make all 
+Building file: ../src/Quick Sort.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Quick Sort.d" -MT"src/Quick\ Sort.d" -o "src/Quick Sort.o" "../src/Quick Sort.cpp"
+Finished building: ../src/Quick Sort.cpp
+ 
+Building target: Quick Sort
+Invoking: MacOS X C++ Linker
+g++  -o "Quick Sort"  ./src/Quick\ Sort.o   
+Finished building target: Quick Sort
+ 
+
+19:53:09 Build Finished (took 442ms)
+

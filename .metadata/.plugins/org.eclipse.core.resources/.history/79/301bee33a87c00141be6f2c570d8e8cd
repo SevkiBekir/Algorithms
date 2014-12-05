@@ -1,16 +1,17 @@
 //============================================================================
-// Name        : Bubble.cpp
+// Name        : Insertion.cpp
 // Author      : Sevki Bekir KOCADAG
 // Version     : 1.0
-// Description : Example of Bubble Sort Algorithm in C++
+// Description : Example of Quick Sort Algorithms in C++
 //============================================================================
 
 #include <iostream>
 using namespace std;
 
-int main() {
+int main()
+{
 	cout << "How many numbers do you sort?"<< endl;
-	int size,i,temp;
+	int size,i,j,temp;
 	cin >> size;
 	int arNumber[size];
 	for (i=0;i<size;i++)
@@ -23,19 +24,17 @@ int main() {
 		cout << arNumber[i] << " ";
 	}
 	cout << endl;
-	for (i = 0; i < size-1; i++)
+	for (i = 1; i <= size-1; i++)
 	{
-		for (int j=0;j<size-i-1;j++)
+
+		for (j=i;j>0 && arNumber[j]<arNumber[j-1];j--)
 		{
-			if(arNumber[j]>arNumber[j+1])
-			{
-				temp=arNumber[j];
-				arNumber[j]=arNumber[j+1];
-				arNumber[j+1]=temp;
-			}
+			temp=arNumber[j];
+			arNumber[j]=arNumber[j-1];
+			arNumber[j-1]=temp;
+
 		}
 	}
-
 	cout << "The sorted numbers are ";
 	for (i=0;i<size;i++)
 	{

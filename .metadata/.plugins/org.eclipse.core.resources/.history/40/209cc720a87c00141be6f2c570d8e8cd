@@ -1,8 +1,9 @@
 //============================================================================
 // Name        : Bubble.cpp
-// Author      : Sevki Bekir KOCADAG
-// Version     : 1.0
-// Description : Example of Bubble Sort Algorithm in C++
+// Author      : Sevki Bekir Kocadag
+// Version     :
+// Copyright   : All rights reserved.
+// Description : Hello World in C++, Ansi-style
 //============================================================================
 
 #include <iostream>
